@@ -43,7 +43,7 @@ The dashboard leverages the Groq API for near-instant inference, utilizing three
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/world-cup-hybrid-engine.git](https://github.com/yourusername/world-cup-hybrid-engine.git)
+   git clone https://github.com/K-Ashik/fifa_world_cup_2026_simulation_forecast.git
 
 ## ⚠️ System Limitations & Future Work
 While highly robust, the current model assumes a static injury roster. Future iterations would benefit from integrating live player-level xG/xA data and an "Impact Player Penalty" metric to account for squad attrition immediately prior to the tournament.
