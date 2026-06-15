@@ -14,15 +14,13 @@ st.set_page_config(page_title="2026 World Cup Predictive Engine", layout="wide")
 # ==============================================================================
 # SECURE BACKEND CREDENTIAL LOADING
 # ==============================================================================
-# Safely attempt to load the local .env file (if running locally)
-try:
+
+# 1. Safely check if we are running locally before trying to load a .env file
+if os.path.exists(".env"):
     from dotenv import load_dotenv
     load_dotenv()
-except ImportError:
-    pass # If dotenv isn't installed (e.g., on a cloud server), it safely skips this
 
-# Fetch the key from the environment OR Streamlit Secrets seamlessly
-# Using os.environ.get is safer here to prevent KeyError crashes
+# 2. Fetch the key from the environment OR Streamlit Secrets seamlessly
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY") 
 if not GROQ_API_KEY:
     try:
