@@ -1,0 +1,1 @@
+# fifa_world_cup_2026_simulation_forecast
