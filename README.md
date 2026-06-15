@@ -5,6 +5,10 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Cloud-FF4B4B)
 ![Groq](https://img.shields.io/badge/LLM-Groq_API-black)
 
+## Read The Report
+
+https://k-ashik.github.io/fifa_world_cup_2026_simulation_forecast/
+
 ## 📌 Executive Summary
 This project is an advanced sports analytics platform that forecasts the 2026 FIFA World Cup. It breaks away from traditional prediction models by combining a **mathematical Monte Carlo simulator** with a **Multi-Agent LLM inference layer**. 
 
